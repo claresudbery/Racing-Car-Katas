@@ -1,4 +1,4 @@
-namespace TDDMicroExercises.TirePressureMonitoringSystem;
+namespace TDDMicroExercises.TirePressureMonitoringSystem.Tests;
 
 public class StubSensor : ISensor
 {

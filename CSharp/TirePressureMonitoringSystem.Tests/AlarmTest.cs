@@ -1,3 +1,4 @@
+using TDDMicroExercises.TirePressureMonitoringSystem.Tests;
 using Xunit;
 
 namespace TDDMicroExercises.TirePressureMonitoringSystem
