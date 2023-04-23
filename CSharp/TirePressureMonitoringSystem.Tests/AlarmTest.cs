@@ -7,7 +7,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
         [Fact]
         public void Foo()
         {
-            Alarm alarm = new Alarm();
+            Alarm alarm = new Alarm(new Sensor());
             Assert.False(alarm.AlarmOn);
         }
     }
