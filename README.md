@@ -1,3 +1,22 @@
+# My branches
+
+- [bootcamp-scratch](https://github.com/claresudbery/Racing-Car-Katas/blob/bootcamp-scratch)
+  - Created for O'Reilly Quality Code bootcamp
+  - for the [Dependency Inversion learning hour](https://www.sammancoaching.org/learning_hours/testable_design/dependency_inversion_principle.html)
+  - This is designed to be a record of the code demo-ed during the LH
+  - Has extra code added to make the tire pressure system testable:
+    - TirePressureMonitoringSystem.Tests/StubSensor.cs
+    - TirePressureMonitoringSystem/ISensor.cs
+    - TirePressureMonitoringSystem/Sensor class implements new interface
+    - ISensor object is injected into TirePressureMonitoringSystem/Alarm class
+    - New tests added to TirePressureMonitoringSystem.Tests/AlarmTest.cs
+- [parallel-change-scratch](https://github.com/claresudbery/Racing-Car-Katas/blob/parallel-change-scratch)
+  - Created for O'Reilly Quality Code bootcamp
+  - for the [Parallel Change learning hour](https://www.sammancoaching.org/learning_hours/refactoring/parallel_change.html)
+  - This is designed to be a record of the code demo-ed during the LH
+  - Code basically does the same as the [bootcamp-scratch branch](https://github.com/claresudbery/Racing-Car-Katas/blob/bootcamp-scratch) (see above), but with some extra stuff:
+    - `Alarm.Check` has been given a `checkForLowPressure` flag, and two new methods, `CheckForLowPressure` and `CheckForHighPressure` have been created.
+
 Racing Car Katas
 =================
 
