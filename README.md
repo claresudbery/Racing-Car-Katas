@@ -10,10 +10,17 @@
     - TirePressureMonitoringSystem/Sensor class implements new interface
     - ISensor object is injected into TirePressureMonitoringSystem/Alarm class
     - New tests added to TirePressureMonitoringSystem.Tests/AlarmTest.cs
-- [parallel-change-scratch](https://github.com/claresudbery/Racing-Car-Katas/blob/parallel-change-scratch)
-  - Created for O'Reilly Quality Code bootcamp
+- [parallel-change-demo](https://github.com/claresudbery/Racing-Car-Katas/blob/parallel-change-demo)
+  - Originally created for O'Reilly Quality Code bootcamp
   - for the [Parallel Change learning hour](https://www.sammancoaching.org/learning_hours/refactoring/parallel_change.html)
-  - This is designed to be a record of the code demo-ed during the LH
+  - This was a record of the code demo-ed during this LH
+  - Code basically does the same as the [bootcamp-scratch branch](https://github.com/claresudbery/Racing-Car-Katas/blob/bootcamp-scratch) (see above), but with some extra stuff:
+    - `Alarm.Check` has been given a `setAlarm` flag
+- [parallel-change-scratch](https://github.com/claresudbery/Racing-Car-Katas/blob/parallel-change-scratch)
+  - Originally created for O'Reilly Quality Code bootcamp
+  - for the [Parallel Change learning hour](https://www.sammancoaching.org/learning_hours/refactoring/parallel_change.html)
+  - This was a record of the code demo-ed during the first iteration of this LH
+    - ...but then I added parallel-change-demo which I think is a better example of this principle
   - Code basically does the same as the [bootcamp-scratch branch](https://github.com/claresudbery/Racing-Car-Katas/blob/bootcamp-scratch) (see above), but with some extra stuff:
     - `Alarm.Check` has been given a `checkForLowPressure` flag, and two new methods, `CheckForLowPressure` and `CheckForHighPressure` have been created.
 
