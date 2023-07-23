@@ -26,7 +26,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
             Alarm alarm = new Alarm(stubSensor);
 
             // Act
-            alarm.Check(true);
+            alarm.CheckAndSetAlarm();
             
             // Assert
             Assert.True(alarm.AlarmOn);
@@ -43,7 +43,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
             Alarm alarm = new Alarm(stubSensor);
 
             // Act
-            alarm.Check(true);
+            alarm.CheckAndSetAlarm();
             
             // Assert
             Assert.True(alarm.AlarmOn);
@@ -60,7 +60,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
             Alarm alarm = new Alarm(stubSensor);
 
             // Act
-            alarm.Check(true);
+            alarm.CheckAndSetAlarm();
             
             // Assert
             Assert.False(alarm.AlarmOn);
@@ -77,7 +77,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
             Alarm alarm = new Alarm(stubSensor);
 
             // Act
-            alarm.Check(false);
+            alarm.CheckWithNoAlarm();
             
             // Assert
             Assert.False(alarm.AlarmOn);
@@ -94,7 +94,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
             Alarm alarm = new Alarm(stubSensor);
 
             // Act
-            alarm.Check(false);
+            alarm.CheckWithNoAlarm();
             
             // Assert
             Assert.False(alarm.AlarmOn);
