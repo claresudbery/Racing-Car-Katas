@@ -1,6 +1,6 @@
 # My branches
 
-- [bootcamp-scratch](https://github.com/claresudbery/Racing-Car-Katas/blob/bootcamp-scratch)
+- [dependency-injection-demo](https://github.com/claresudbery/Racing-Car-Katas/blob/dependency-injection-demo)
   - Created for O'Reilly Quality Code bootcamp
   - for the [Dependency Inversion learning hour](https://www.sammancoaching.org/learning_hours/testable_design/dependency_inversion_principle.html)
   - This is designed to be a record of the code demo-ed during the LH
